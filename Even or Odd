@@ -1,0 +1,17 @@
+#include<stdio.h>     //Header File to Input and Output Data
+int main()
+{
+int a;
+	printf("Enter the number: "); //print to the screen		
+	scanf("%d",a);				// declaring a variable a	
+	
+	if(a%2==0){							//Checking whether the number is even or not
+	printf("the given number is even");
+	}
+	else{
+	printf("the given number is odd");
+	}
+
+return 0;			// returning the ionteger value zero, signifies sucessful execution of code 
+
+}
